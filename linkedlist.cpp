@@ -75,14 +75,14 @@ class singlelist{
             free(temp);
         }
     }
-    void display(){
-        node* temp=head;
-        while(temp!=NULL){
-            cout<<"-->"<<temp->data;
-            temp=temp->next;
-        }
-        cout<<endl;
-    }
+    // void display(){
+    //     node* temp=head;
+    //     while(temp!=NULL){
+    //         cout<<"-->"<<temp->data;
+    //         temp=temp->next;
+    //     }
+    //     cout<<endl;
+    // }
 };
 int main(){
     singlelist ob;
